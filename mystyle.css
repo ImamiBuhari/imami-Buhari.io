@@ -1,0 +1,62 @@
+a[href^="tel:"] {
+  color: rgb(90, 62, 9);
+  text-decoration: none;
+}
+
+a[href^="tel:"]:before {
+  content: "\260e";
+  margin-right: 0.5em;
+}
+
+
+
+.style1 {
+  font-family: 'Kaushan Script', cursive;
+  text-shadow: 2px 2px 4px #000;
+  position: absolute;
+  top: 10px;
+  z-index: 100;
+  left: 20px;
+  color: #daa520;
+}
+
+@media (min-width: 576px) {
+
+.style1 {
+    font-size: 3.5rem;
+    left: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+
+.style1 {
+    font-size: 4.0rem;
+    left: 100px;
+  }
+}
+
+
+@media (min-width: 992px) {
+
+.style1 {
+    font-size: 6.0rem;
+    left: 200px;
+  }
+}
+
+@media (min-width: 1100px) {
+
+.style1 {
+    font-size: 6.0rem;
+    left: 320px;
+  }
+}
+
+@media (min-width: 1400px) {
+
+.style1 {
+    font-size: 6.0rem;
+    left: 400px;
+  }
+}
